@@ -53,6 +53,7 @@ a{
 	width:389px;
 	height:36px;
 	border:2px solid #f83838;
+	outline:none;
 	float:left;
 	padding-left:16px;
 }
@@ -61,25 +62,27 @@ a{
 	height:40px;
 	border:2px solid #f83838;
 	background-color:#f83838;
+	outline:none;
 	float:right;
 	color:#ffffff;
 }
 .nk .shopping{
 	width:148px;
 	height:38px;
+	line-height:38px;
 	border:1px solid #e3e3e3;
 	background:#f5f5f5;
 	position:absolute;
 	left:1042px;
 	top:39px;
 }
-.nk .shopping {
-	line-height:38px;
-}
 .nk .shopping img{
 	margin:8px 6px 0px 25px;
 }
 .nk .shopping a{
+	color:#000;
+}
+.nk .shopping span{
 	color:#f14e4e;
 }
 .n1{
@@ -148,7 +151,7 @@ a{
 }
 .pro .zs img{
 	float:left;
-	padding:6px 25px 0px 34px;
+	padding:12px 25px 0px 34px;
 }
 .pro .zs p{
 	float:left;
